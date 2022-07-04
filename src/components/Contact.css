@@ -1,0 +1,34 @@
+.contact-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-div {
+    width: 50vw;
+    transform: translateY(-10vh);
+    font-size:19px;
+}
+
+
+.send {
+    font-size: var(--font-size);
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .contact-div {
+        width: 70vw;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-div {
+        width: 90vw;
+        height: 50vh;
+    }
+}
